@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class beecrowd1007 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int DIFERENCA;
+		
+		int A = sc.nextInt();
+		int B = sc.nextInt();
+		int C = sc.nextInt();
+		int D = sc.nextInt();
+		
+		DIFERENCA = A * B - C * D;
+		
+		System.out.println("DIFERENCA = " + DIFERENCA);
+		
+		sc.close();
+	}
+}
